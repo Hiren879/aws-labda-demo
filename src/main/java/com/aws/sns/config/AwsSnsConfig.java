@@ -21,8 +21,8 @@ public class AwsSnsConfig {
 				.withRegion(Regions.US_EAST_1)
 				.withCredentials(
 						new AWSStaticCredentialsProvider(
-								new BasicAWSCredentials("AKIA3RC2MAD3LN374BSW"
-									, "vU/pi6TfEDKW3JExhrjGib/+Mc8Vct1WZXWb5dXD"))
+								new BasicAWSCredentials(""
+									, ""))
 						)
 				.build();
 	}
